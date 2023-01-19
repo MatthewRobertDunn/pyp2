@@ -49,4 +49,5 @@ class AllocationTable(Enum):
     high_rate_27_bands = [AllocationRow[x] for x in [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]]
     high_rate_30_bands = [AllocationRow[x] for x in [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0 ]]
     low_rate_7_bands = [AllocationRow[x] for x in [4, 4, 5, 5, 5, 5, 5, 5]]
-    lsf_30_bands = [AllocationRow[x] for x in [ 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]],    #For mpeg2.5? don't think this gets used.
+    #For mpeg2.5? don't think this gets used.
+    lsf_30_bands = [AllocationRow[x] for x in [ 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]],
