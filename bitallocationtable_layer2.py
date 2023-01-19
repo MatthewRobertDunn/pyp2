@@ -41,6 +41,10 @@ AllocationTableRows = [
         AllocationRow(2, [0, -5, -7,  3])
 ]
 
+'''
+The actual allocation lookup table. This is the only part of this useful to consumers of this module
+One of these enum values needs to be chosen based on bitrate, sample rate, mpeg version.
+'''
 class AllocationTable(Enum):
     high_rate_27_bands = [AllocationRow[x] for x in [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]]
     high_rate_30_bands = [AllocationRow[x] for x in [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0 ]]
